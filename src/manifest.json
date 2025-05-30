@@ -1,0 +1,27 @@
+{
+  "name": "ext-js",
+  "version": "0.1",
+  "description": "foo description here",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts" : [
+    {
+
+    "matches" : [
+      "https://example.com/*"
+      ],
+
+    "js" : [
+      "js/ext.js"
+      ]
+    }
+  ],
+
+  "manifest_version": 3
+}
